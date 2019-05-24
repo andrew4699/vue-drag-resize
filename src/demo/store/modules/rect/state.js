@@ -18,14 +18,14 @@ export default {
             'active': false
         },
         {
-            'width': 200,
-            'height': 150,
+            'width': 0,
+            'height': 0,
             'top': 10,
             'left': 220,
             'draggable': true,
             'resizable': true,
-            'minw': 10,
-            'minh': 10,
+            'minw': 0,
+            'minh': 0,
             'axis': 'both',
             'parentLim': true,
             'snapToGrid': false,

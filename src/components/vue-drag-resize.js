@@ -74,28 +74,28 @@ export default {
             type: Number,
             default: 100,
             validator: function (val) {
-                return val > 0
+                return val >= 0
             }
         },
         h: {
             type: Number,
             default: 100,
             validator: function (val) {
-                return val > 0
+                return val >= 0
             }
         },
         minw: {
             type: Number,
             default: 50,
             validator: function (val) {
-                return val > 0
+                return val >= 0
             }
         },
         minh: {
             type: Number,
             default: 50,
             validator: function (val) {
-                return val > 0
+                return val >= 0
             }
         },
         x: {
